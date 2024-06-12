@@ -1,0 +1,44 @@
+/* Estilo básico para o menu */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background1.jpg); /* Substitua 'caminho/da/sua/imagem.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    text-align: center; /* Centraliza os itens do menu horizontalmente */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o parágrafo na seção "Home" */
+#home p {
+    text-align: center;
+    margin: 20px auto; /* Adiciona margem automática ao redor do parágrafo */
+    max-width: 800px; /* Define a largura máxima do parágrafo */
+}
+
+p {color: #fff;
+  font-size: large;
